@@ -1,4 +1,4 @@
-const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
+const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
 const CAT_PROMPTS = {
   multigoals: "MULTIGOALS MARKETS: Match Multigoals (1-2, 1-3, 1-4, 2-3, 2-4, 3-5 ranges), Home Team Multigoals (1-2, 1-3, No goal), Away Team Multigoals (1-2, 1-3, No goal), 1st Half Multigoals (No goal, 1-2, 1-3), Multiscores (grouped correct scores). Give 8-12 predictions.",
